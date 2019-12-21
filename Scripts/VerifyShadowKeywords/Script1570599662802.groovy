@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_frevvo  Forms/a_Edit'))
 
 WebUI.click(findTestObject('Object Repository/Page_frevvo  Form 9 Form/a_v0_e-edit-property'))
 
-WebUI.delay(10)
+CustomKeywords.'com.katalon.plugin.keyword.shadow.ShadowKeywords.setImplicitWait'(10)
 
 WebElement obj = CustomKeywords.'com.katalon.plugin.keyword.shadow.ShadowKeywords.findElement'('frevvo-ui-form-properties#form-properties>frevvo-form-properties-page#settingsPage>input[title=\'Name of the form\']')
 
